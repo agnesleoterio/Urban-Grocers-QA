@@ -1,0 +1,1443 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\,";
+    mso-displayed-thousand-separator:"\.";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://agnesleoterioalves.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://agnesleoterioalves.atlassian.net/issues/?jql=project+%3D+%22AG%22+ORDER+BY+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Exibindo 46 itens como em 10/abr/25 11:47 AM.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Tipo de item
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Chave
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Resumo
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Responsável
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Relator
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Prioridade
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolução
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Criado
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Atualizado(a)
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Data limite
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10045" rel="10045" data-issuekey="AG-46" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-46" href="https://agnesleoterioalves.atlassian.net/browse/AG-46">AG-46</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /order-and-go/v1/delivery]&quot;hostDeliveryCost&quot; deve apresentar um valor=5.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 04/out/24 8:46 AM </td>
+                                            <td class="updated"> 04/out/24 8:49 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10044" rel="10044" data-issuekey="AG-45" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-45" href="https://agnesleoterioalves.atlassian.net/browse/AG-45">AG-45</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /order-and-go/v1/delivery] Peso do produto &quot;productsWeight&quot;não deve aceitar valores maior que 6 e o &quot;clientDeliveryCost&quot; deve ser =9
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 27/set/24 2:47 PM </td>
+                                            <td class="updated"> 07/out/24 12:03 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10043" rel="10043" data-issuekey="AG-44" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-44" href="https://agnesleoterioalves.atlassian.net/browse/AG-44">AG-44</a>
+</td>
+                                            <td class="summary"><p>
+                 [POST /order-and-go/v1/delivery] Peso do produto &quot;productsWeight&quot;: não deve aceitar um valor negativo.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 27/set/24 2:32 PM </td>
+                                            <td class="updated"> 04/out/24 8:46 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10042" rel="10042" data-issuekey="AG-43" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-43" href="https://agnesleoterioalves.atlassian.net/browse/AG-43">AG-43</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /order-and-go/v1/delivery] quantidade de produtos &quot;productsCount&quot; não deve aceitar valores maiores que 15 e o &quot;clientDeliveryCost&quot; não retorna o valor esperado = 9.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 27/set/24 2:14 PM </td>
+                                            <td class="updated"> 07/out/24 12:00 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10041" rel="10041" data-issuekey="AG-42" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-42" href="https://agnesleoterioalves.atlassian.net/browse/AG-42">AG-42</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /order-and-go/v1/delivery] quantidade de produtos &quot;productsCount&quot; não deve aceitar um valor negativo. 
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Em andamento&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;Este problema está sendo trabalhado ativamente no momento pelo responsável.&lt;/span&gt;">Em andamento</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 27/set/24 1:53 PM </td>
+                                            <td class="updated"> 04/out/24 8:19 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10040" rel="10040" data-issuekey="AG-41" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-41" href="https://agnesleoterioalves.atlassian.net/browse/AG-41">AG-41</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /order-and-go/v1/delivery] &quot;deliveryTime&quot; retorna true ao invés de false, &quot;clientDeliveryCost&quot; não retorna 0 conforme esperado.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 27/set/24 1:36 PM </td>
+                                            <td class="updated"> 04/out/24 8:17 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10039" rel="10039" data-issuekey="AG-40" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-40" href="https://agnesleoterioalves.atlassian.net/browse/AG-40">AG-40</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /order-and-go/v1/delivery] &quot;deliveryTime&quot; retorna valor incorreto e &quot;clientDeliveryCost&quot; não retorna 0 conforme esperado.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 27/set/24 1:12 PM </td>
+                                            <td class="updated"> 02/out/24 6:41 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10038" rel="10038" data-issuekey="AG-39" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-39" href="https://agnesleoterioalves.atlassian.net/browse/AG-39">AG-39</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error com caracter especial na Url
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 5:16 PM </td>
+                                            <td class="updated"> 27/set/24 1:05 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10037" rel="10037" data-issuekey="AG-38" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-38" href="https://agnesleoterioalves.atlassian.net/browse/AG-38">AG-38</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error com letras latinas na Url
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 5:09 PM </td>
+                                            <td class="updated"> 26/set/24 5:16 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10036" rel="10036" data-issuekey="AG-37" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-37" href="https://agnesleoterioalves.atlassian.net/browse/AG-37">AG-37</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error sem o parâmetro&quot;quantity&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 4:21 PM </td>
+                                            <td class="updated"> 26/set/24 4:26 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10035" rel="10035" data-issuekey="AG-36" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-36" href="https://agnesleoterioalves.atlassian.net/browse/AG-36">AG-36</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error com o parâmetro&quot;quantity&quot; preenchido comcaracter especial
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 4:16 PM </td>
+                                            <td class="updated"> 26/set/24 4:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10034" rel="10034" data-issuekey="AG-35" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-35" href="https://agnesleoterioalves.atlassian.net/browse/AG-35">AG-35</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error com o parâmetro&quot;quantity&quot; preenchido com letras latinas.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 4:05 PM </td>
+                                            <td class="updated"> 26/set/24 4:17 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10033" rel="10033" data-issuekey="AG-34" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-34" href="https://agnesleoterioalves.atlassian.net/browse/AG-34">AG-34</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error sem o parâmetro&quot;id&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 3:54 PM </td>
+                                            <td class="updated"> 26/set/24 5:09 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10032" rel="10032" data-issuekey="AG-33" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-33" href="https://agnesleoterioalves.atlassian.net/browse/AG-33">AG-33</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error ao inserir caracter especial no parâmetro&quot;id&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 3:50 PM </td>
+                                            <td class="updated"> 26/set/24 3:54 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10031" rel="10031" data-issuekey="AG-32" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-32" href="https://agnesleoterioalves.atlassian.net/browse/AG-32">AG-32</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error ao inserir vazio&quot; &quot; no parâmetro&quot;id&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 3:45 PM </td>
+                                            <td class="updated"> 26/set/24 3:52 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10030" rel="10030" data-issuekey="AG-31" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-31" href="https://agnesleoterioalves.atlassian.net/browse/AG-31">AG-31</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 500 Internal Several Error ao inserir letras latinas no parâmetro &quot;id&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 3:33 PM </td>
+                                            <td class="updated"> 26/set/24 3:45 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10029" rel="10029" data-issuekey="AG-30" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-30" href="https://agnesleoterioalves.atlassian.net/browse/AG-30">AG-30</a>
+</td>
+                                            <td class="summary"><p>
+                [POST /api/v1/kits/{id}/products] Retorna status code 200 OK ao inserir um valor negativo no parâmetro &quot;quantity&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 26/set/24 1:39 PM </td>
+                                            <td class="updated"> 26/set/24 3:33 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10028" rel="10028" data-issuekey="AG-29" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-29" href="https://agnesleoterioalves.atlassian.net/browse/AG-29">AG-29</a>
+</td>
+                                            <td class="summary"><p>
+                A corrida não é cancelada.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 5:00 PM </td>
+                                            <td class="updated"> 05/set/24 5:00 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10027" rel="10027" data-issuekey="AG-28" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-28" href="https://agnesleoterioalves.atlassian.net/browse/AG-28">AG-28</a>
+</td>
+                                            <td class="summary"><p>
+                CLO Ao reservar um carro, ocorre um erro no pop up.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 4:44 PM </td>
+                                            <td class="updated"> 05/set/24 4:48 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10026" rel="10026" data-issuekey="AG-27" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-27" href="https://agnesleoterioalves.atlassian.net/browse/AG-27">AG-27</a>
+</td>
+                                            <td class="summary"><p>
+                 Ao reservar um carro, aparece um erro no ícone do pop up.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 4:37 PM </td>
+                                            <td class="updated"> 05/set/24 4:44 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10025" rel="10025" data-issuekey="AG-26" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-26" href="https://agnesleoterioalves.atlassian.net/browse/AG-26">AG-26</a>
+</td>
+                                            <td class="summary"><p>
+                Ao reservar um carro, aparece um pop up com um erro.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 4:27 PM </td>
+                                            <td class="updated"> 05/set/24 4:37 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10024" rel="10024" data-issuekey="AG-25" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-25" href="https://agnesleoterioalves.atlassian.net/browse/AG-25">AG-25</a>
+</td>
+                                            <td class="summary"><p>
+                No botão &quot;Reservar&quot; aparece um erro.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 4:10 PM </td>
+                                            <td class="updated"> 05/set/24 4:12 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10023" rel="10023" data-issuekey="AG-24" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-24" href="https://agnesleoterioalves.atlassian.net/browse/AG-24">AG-24</a>
+</td>
+                                            <td class="summary"><p>
+                Ícone &quot;check&quot; não aparece.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 3:50 PM </td>
+                                            <td class="updated"> 05/set/24 3:51 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10022" rel="10022" data-issuekey="AG-23" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-23" href="https://agnesleoterioalves.atlassian.net/browse/AG-23">AG-23</a>
+</td>
+                                            <td class="summary"><p>
+                Ícone carro fora do design.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 3:35 PM </td>
+                                            <td class="updated"> 05/set/24 3:37 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10021" rel="10021" data-issuekey="AG-22" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-22" href="https://agnesleoterioalves.atlassian.net/browse/AG-22">AG-22</a>
+</td>
+                                            <td class="summary"><p>
+                A frase &quot; X min  . X minutos de espera gratuita&quot; está com erro.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 3:28 PM </td>
+                                            <td class="updated"> 05/set/24 3:29 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10020" rel="10020" data-issuekey="AG-21" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-21" href="https://agnesleoterioalves.atlassian.net/browse/AG-21">AG-21</a>
+</td>
+                                            <td class="summary"><p>
+                O ícone de um carro e sua marca aparece no mapa.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 3:18 PM </td>
+                                            <td class="updated"> 05/set/24 3:18 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10019" rel="10019" data-issuekey="AG-20" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-20" href="https://agnesleoterioalves.atlassian.net/browse/AG-20">AG-20</a>
+</td>
+                                            <td class="summary"><p>
+                Miniatura de carros não aparece no mapa 
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 3:07 PM </td>
+                                            <td class="updated"> 05/set/24 3:09 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10018" rel="10018" data-issuekey="AG-19" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-19" href="https://agnesleoterioalves.atlassian.net/browse/AG-19">AG-19</a>
+</td>
+                                            <td class="summary"><p>
+                No mapa não é exibido os pontos com a escrita &quot;De&quot; e &quot;Para&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 2:57 PM </td>
+                                            <td class="updated"> 05/set/24 3:00 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10017" rel="10017" data-issuekey="AG-18" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-18" href="https://agnesleoterioalves.atlassian.net/browse/AG-18">AG-18</a>
+</td>
+                                            <td class="summary"><p>
+                Tamanho dos botoes não confere 
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 2:44 PM </td>
+                                            <td class="updated"> 05/set/24 2:45 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10016" rel="10016" data-issuekey="AG-17" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-17" href="https://agnesleoterioalves.atlassian.net/browse/AG-17">AG-17</a>
+</td>
+                                            <td class="summary"><p>
+                Erro na frase &quot; frase carshering(carro) ~$ X, Duração: X min &quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 2:33 PM </td>
+                                            <td class="updated"> 05/set/24 2:41 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10015" rel="10015" data-issuekey="AG-16" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-16" href="https://agnesleoterioalves.atlassian.net/browse/AG-16">AG-16</a>
+</td>
+                                            <td class="summary"><p>
+                Marca d&#39;água é exibida com erro. 
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 2:15 PM </td>
+                                            <td class="updated"> 05/set/24 2:16 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10014" rel="10014" data-issuekey="AG-15" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-15" href="https://agnesleoterioalves.atlassian.net/browse/AG-15">AG-15</a>
+</td>
+                                            <td class="summary"><p>
+                t3-A janela &quot;Cartão adicionado&quot; não aparece.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 1:20 PM </td>
+                                            <td class="updated"> 05/set/24 1:27 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10013" rel="10013" data-issuekey="AG-14" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-14" href="https://agnesleoterioalves.atlassian.net/browse/AG-14">AG-14</a>
+</td>
+                                            <td class="summary"><p>
+                t2- A janela&quot;Carteira de motorista adicionada&quot;aparece.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 1:08 PM </td>
+                                            <td class="updated"> 05/set/24 2:08 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10012" rel="10012" data-issuekey="AG-13" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-13" href="https://agnesleoterioalves.atlassian.net/browse/AG-13">AG-13</a>
+</td>
+                                            <td class="summary"><p>
+                t3- Validar o não cancelamento da corrida.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 12:23 PM </td>
+                                            <td class="updated"> 05/set/24 12:24 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10011" rel="10011" data-issuekey="AG-12" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-12" href="https://agnesleoterioalves.atlassian.net/browse/AG-12">AG-12</a>
+</td>
+                                            <td class="summary"><p>
+                t2 - A corrida não é cancelada.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 12:19 PM </td>
+                                            <td class="updated"> 05/set/24 5:00 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10010" rel="10010" data-issuekey="AG-11" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-11" href="https://agnesleoterioalves.atlassian.net/browse/AG-11">AG-11</a>
+</td>
+                                            <td class="summary"><p>
+                O botão adicionar fica ativo após preencher os campos com dados inválidos.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 11:45 AM </td>
+                                            <td class="updated"> 05/set/24 11:48 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10009" rel="10009" data-issuekey="AG-10" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-10" href="https://agnesleoterioalves.atlassian.net/browse/AG-10">AG-10</a>
+</td>
+                                            <td class="summary"><p>
+                O botão adicionar fica ativo após preencher o campos número com dados inválidos
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 11:41 AM </td>
+                                            <td class="updated"> 05/set/24 11:46 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10008" rel="10008" data-issuekey="AG-9" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-9" href="https://agnesleoterioalves.atlassian.net/browse/AG-9">AG-9</a>
+</td>
+                                            <td class="summary"><p>
+                O botão adicionar fica ativo após preencher o campos código com dados inválidos
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 11:37 AM </td>
+                                            <td class="updated"> 05/set/24 11:42 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10007" rel="10007" data-issuekey="AG-8" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-8" href="https://agnesleoterioalves.atlassian.net/browse/AG-8">AG-8</a>
+</td>
+                                            <td class="summary"><p>
+                É possível inserir letras latinas, letras nao latinas e caracter especial
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 11:20 AM </td>
+                                            <td class="updated"> 05/set/24 11:22 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10006" rel="10006" data-issuekey="AG-7" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-7" href="https://agnesleoterioalves.atlassian.net/browse/AG-7">AG-7</a>
+</td>
+                                            <td class="summary"><p>
+                É impossível inserir  100
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 11:13 AM </td>
+                                            <td class="updated"> 05/set/24 11:21 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10005" rel="10005" data-issuekey="AG-6" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-6" href="https://agnesleoterioalves.atlassian.net/browse/AG-6">AG-6</a>
+</td>
+                                            <td class="summary"><p>
+                É impossível inserir  00
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 11:10 AM </td>
+                                            <td class="updated"> 05/set/24 11:13 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="AG-5" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-5" href="https://agnesleoterioalves.atlassian.net/browse/AG-5">AG-5</a>
+</td>
+                                            <td class="summary"><p>
+                É permitido letras latinas, não latinas e caracter especial.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 10:36 AM </td>
+                                            <td class="updated"> 05/set/24 10:46 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="AG-4" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-4" href="https://agnesleoterioalves.atlassian.net/browse/AG-4">AG-4</a>
+</td>
+                                            <td class="summary"><p>
+                Os espaços não são inseridos automáticamente.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 10:31 AM </td>
+                                            <td class="updated"> 05/set/24 10:37 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10002" rel="10002" data-issuekey="AG-3" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-3" href="https://agnesleoterioalves.atlassian.net/browse/AG-3">AG-3</a>
+</td>
+                                            <td class="summary"><p>
+                Aceita números repetidos em seguência.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 10:11 AM </td>
+                                            <td class="updated"> 05/set/24 10:50 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10001" rel="10001" data-issuekey="AG-2" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-2" href="https://agnesleoterioalves.atlassian.net/browse/AG-2">AG-2</a>
+</td>
+                                            <td class="summary"><p>
+                É possível inserir mais de 12 símbolos 
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 9:46 AM </td>
+                                            <td class="updated"> 05/set/24 10:49 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10000" rel="10000" data-issuekey="AG-1" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="AG-1" href="https://agnesleoterioalves.atlassian.net/browse/AG-1">AG-1</a>
+</td>
+                                            <td class="summary"><p>
+                A interface não mostra os últimos 4 dígitos do cartão.
+    </p>
+</td>
+                                            <td class="assignee">    <em>Não atribuído</em>
+</td>
+                                            <td class="reporter">            Agnes Leoterio
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tarefas pendentes&lt;/span&gt;">Tarefas pendentes</span>    </td>
+                                            <td class="resolution">    <em>Não resolvido(s)</em>
+</td>
+                                            <td class="created"> 05/set/24 6:59 AM </td>
+                                            <td class="updated"> 05/set/24 7:23 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Gerado em Thu Apr 10 14:47:37 GMT 2025 por Agnes Leoterio usando JIRA 1001.0.0-SNAPSHOT#100283-rev:14a54bf2a9ac1c0708ee843e5225e2a14af9148a.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
