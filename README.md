@@ -24,10 +24,10 @@ Este projeto envolveu a análise dos requisitos e testes da nova funcionalidade 
 - **Jira:** Para registrar e acompanhar os relatórios de bugs identificados durante os testes.
 - **Google Sheets:** Para organizar e compartilhar o checklist de testes.
 
-## Acesso ao Checklist de Testes
+## Acesso ao Checklist de Testes e API 
 
 O checklist de testes está disponível em uma planilha no repositório deste projeto.
-
+Você pode conferir a API que testei [neste link](https://cnt-ac9f7960-95e3-4d29-833e-0ba9e9e91d91.containerhub.tripleten-services.com/docs/).
 ## Conclusão
 
 O projeto permitiu verificar a funcionalidade da API de acordo com os requisitos fornecidos, identificando e relatando quaisquer problemas encontrados durante os testes. O checklist e os testes realizados fornecem uma base sólida para garantir que a nova funcionalidade do back-end seja robusta e esteja pronta para produção.
