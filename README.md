@@ -1,6 +1,6 @@
 # Projeto de Testes - Urban.Grocers API
 
-## Descrição
+## Descrição/Objetido do Projeto
 
 Este projeto envolveu a análise dos requisitos e testes da nova funcionalidade do back-end da aplicação **Urban.Grocers**. O objetivo principal foi testar as funcionalidades da API e garantir que atendem aos requisitos definidos, sem envolver a autorização, conforme especificado.
 
@@ -28,6 +28,6 @@ Este projeto envolveu a análise dos requisitos e testes da nova funcionalidade 
 
 O checklist de testes está disponível em uma planilha no repositório deste projeto.
 Você pode conferir a API que testei [neste link](https://cnt-ac9f7960-95e3-4d29-833e-0ba9e9e91d91.containerhub.tripleten-services.com/docs/).
-## Conclusão
 
+## Funcionalidade
 O projeto permitiu verificar a funcionalidade da API de acordo com os requisitos fornecidos, identificando e relatando quaisquer problemas encontrados durante os testes. O checklist e os testes realizados fornecem uma base sólida para garantir que a nova funcionalidade do back-end seja robusta e esteja pronta para produção.
