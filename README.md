@@ -27,7 +27,7 @@ Este projeto envolveu a análise dos requisitos e testes da nova funcionalidade 
 ## Acesso ao Checklist de Testes e API 
 
 O checklist de testes está disponível em uma planilha no repositório deste projeto.
-Você pode conferir a API que testei [neste link](file:///D:/Documents/Bootcamp%20QA/projeto%20final%20prints/Urban-Scooter-%20RelatorioJira/Jira.html).
+Você pode conferir a API que testei [neste link](https://agnesleoterio.github.io/Urban-Grocers-QA/).
 
 ## Funcionalidade
 O projeto permitiu verificar a funcionalidade da API de acordo com os requisitos fornecidos, identificando e relatando quaisquer problemas encontrados durante os testes. O checklist e os testes realizados fornecem uma base sólida para garantir que a nova funcionalidade do back-end seja robusta e esteja pronta para produção.
